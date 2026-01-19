@@ -1,0 +1,15 @@
+#angular 20  spreedSheet :3
+
+#services
+import { catchError, map, tap } from 'rxjs/operators';
+constructor( private http: HttpCLient, private messageService: MessageService){} 
+private apiUrlItems;
+
+getITems():Observable<Item[]>{
+	
+	return this.http.get<Item[]>(this.apiUrlItems)
+	.pipe(
+		catchError(this.handleError<Item[]>
+	('getItems', [])
+);
+}
