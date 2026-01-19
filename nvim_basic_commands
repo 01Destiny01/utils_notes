@@ -1,4 +1,13 @@
 ***NEOVIM SPREEDSHET********* 
 control + o previus navegation
+control + i move forward
 dd = delele actual line
 i = insert
+w: next word
+b: previous word
+e: move end actual word & to the next ones
+{ / }: Move to start/end block
+Ctrl + f: move foward one full screen
+Ctrl + b: move previous one full screen
+Ctrl + u: move up to one full screen
+Ctrl + d: move down one full screen
