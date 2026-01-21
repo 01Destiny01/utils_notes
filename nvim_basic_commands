@@ -2,6 +2,7 @@
 control + o previus navegation
 control + i move forward
 dd = delele actual line
+gddG = delete all content file
 i = insert
 w: next word
 b: previous word
